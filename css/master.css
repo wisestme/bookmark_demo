@@ -1,0 +1,72 @@
+body {
+    padding-top: 2em;
+}
+.no_small {
+    display: none;
+}
+
+.menu_icon {
+    /* float: right; */
+    text-align: right;
+}
+
+header > .my_container,
+main > .my_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#manager .my_container {
+    flex-direction: column-reverse; 
+}
+
+#manager h2 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    padding: 1em 1.5em;
+}
+
+#manager a {
+    background-color: slateblue;
+    border-radius: 5px;
+}
+
+#features p {
+    padding: 0.3em;
+}
+
+/* .features_items ul {
+    padding-left: 0;
+    align-items: center;
+    text-align: center;
+    color: blue;
+} */
+
+.features_items li{
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.features_items li.active:after {
+    content: '';
+    width: 80%;
+    position: relative;
+    left: 0;
+    bottom: -3px;
+    color: red;
+    border-width: 0 0 2px;
+    border-style: solid;
+}
+
+.hide {
+    display: none;
+}
+
+.browsers img:first-child {
+    width: 50%;
+    margin: 0 auto;
+}
