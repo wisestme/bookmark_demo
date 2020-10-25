@@ -38,13 +38,6 @@ p {
     padding: 0.3em;
 }
 
-/* .features_items ul {
-    padding-left: 0;
-    align-items: center;
-    text-align: center;
-    color: blue;
-} */
-
 .features_items li{
     width: 200px;
     margin: 0 auto;
@@ -69,4 +62,12 @@ p {
 .browsers img:first-child {
     width: 50%;
     margin: 0 auto;
+}
+
+.questions a {
+    width: 100%;
+}
+
+.questions i {
+    float: right;
 }
