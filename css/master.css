@@ -1,12 +1,12 @@
 body {
     padding-top: 2em;
 }
+
 .no_small {
     display: none;
 }
 
 .menu_icon {
-    /* float: right; */
     text-align: right;
 }
 
@@ -70,4 +70,13 @@ p {
 
 .questions i {
     float: right;
+}
+
+footer .lower {
+    background: #242946;
+}
+
+footer .my_container > div {
+    width: 98%;
+    margin: 0 auto;
 }
