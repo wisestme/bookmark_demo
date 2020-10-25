@@ -81,6 +81,10 @@ footer .my_container > div {
     margin: 0 auto;
 }
 
+.fa-angle-down {
+    font-size: 23px;
+}
+
 .test {
     border: 2px solid red;
 }
