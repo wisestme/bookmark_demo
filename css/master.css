@@ -86,13 +86,25 @@ footer .my_container > div {
 }
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 850px) {
+    header > .my_container
+    {
+    width: 100%;
+    }
     .small {
         display: none;
     }
 
     .no_small {
         display: inline;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    header > .my_container
+    {
+    width: 90%;
     }
 
     #manager .my_container {
