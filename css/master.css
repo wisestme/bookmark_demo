@@ -85,6 +85,21 @@ footer .my_container > div {
     font-size: 23px;
 }
 
+/* MEDIA QUERIES */
+@media screen and (min-width: 1000px) {
+    .small {
+        display: none;
+    }
+
+    .no_small {
+        display: inline;
+    }
+
+    #manager .my_container {
+        flex-direction: row; 
+    }
+}
+
 .test {
     border: 2px solid red;
 }
