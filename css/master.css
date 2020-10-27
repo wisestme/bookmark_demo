@@ -103,6 +103,8 @@ footer .my_container > div {
         border-top: 0!important;
         margin: 0;
     }
+
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -113,6 +115,14 @@ footer .my_container > div {
 
     #manager .my_container {
         flex-direction: row; 
+    }
+
+    .browsers {
+        width: 98vw;
+    }
+
+    .browsers .card {
+        height: 400px;
     }
 }
 
