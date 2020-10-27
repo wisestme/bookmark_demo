@@ -99,6 +99,10 @@ footer .my_container > div {
         display: inline;
     }
 
+    .features_items li {
+        border-top: 0!important;
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 992px) {
